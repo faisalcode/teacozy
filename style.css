@@ -30,14 +30,14 @@ header {
 }
 
 .header-container nav {
- min-width: 300px;
+  min-width: 300px;
 }
 
 nav a {
   padding: 0 10px;
 }
 
-.content {
+.content-container {
   position: relative;
   top: 70px;
   display: flex;
@@ -78,13 +78,13 @@ nav a {
   justify-content: center;
 }
 
-.featuredgrid .box {
+.featuredgrid .food {
   width: 300px;
   height: 250px;
   margin: 10px 10px;
 }
 
-.featuredgrid .box img {
+.featuredgrid .food img {
   width: 300px;
   height: 200px;
 }
@@ -109,16 +109,13 @@ nav a {
   background-color: transparent;
 }
 
-.locationsgrid .addbox {
-  width: 300px;
-  height: 300px;
-  margin: 15px 20px 20px 20px;
-}
-
 .address {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px 20px 20px;
 }
 
 #contact {
@@ -136,6 +133,6 @@ footer {
 }
 
 footer h5 {
-    text-align: left;
-    padding: 15px 10px;
+  text-align: left;
+  padding: 15px 10px;
 }
