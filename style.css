@@ -1,0 +1,141 @@
+* {
+  font-family: helvetica;
+  /* font-size: 22px; */
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  opacity: 1;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+}
+
+.header-container img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header-container nav {
+ min-width: 300px;
+}
+
+nav a {
+  padding: 0 10px;
+}
+
+.content {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url("./resources/images/img-mission-background.jpg");
+  padding-top: 370px;
+  margin-bottom: 20px;
+}
+
+#mission h2, h4 {
+  opacity: 1;
+  padding: 5px 0;
+}
+
+
+#featured {
+  width: 1000px;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.featuredgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featuredgrid .box {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px;
+}
+
+.featuredgrid .box img {
+  width: 300px;
+  height: 200px;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("./resources/images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+#locations h2 {
+  background-color: transparent;
+}
+
+.locationsgrid {
+  display: flex;
+  background-color: transparent;
+}
+
+.locationsgrid .addbox {
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px 20px 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#contact {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  top: 80px;
+}
+
+footer h5 {
+    text-align: left;
+    padding: 15px 10px;
+}
